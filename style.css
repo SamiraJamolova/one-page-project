@@ -570,7 +570,7 @@ p {
 /*  End Keyframes*/
 
 /* Media Query For Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -674,7 +674,7 @@ p {
   /* End Media Query For Tablet*/
 }
 /*  Media Query For desktop */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   /* header */
   #header .hamburger {
     display: none;
